@@ -17,7 +17,7 @@
 function getStudentInfo(){
     const inputName = document.getElementById("inputName").value;
     // fetch() POST
-    fetch("https://simsimma.pythonanywhere.com/studentInfo",{
+    fetch("https://aniyaaaa.pythonanywhere.com/studentInfo",{
         method: "POST",
         headers:{"Content-Type":"application/json"},
         body:JSON.stringify({name:inputName})
